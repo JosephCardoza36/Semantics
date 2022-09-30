@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Completed CSS validation - no errors */
+
+
+/* --------------- top of page --------------*/
+
+
+#main-div {
+    position: relative;
+    min-width: 800px;
+    max-width: 1100px;
+    width: calc(100% - 16px);
+    left: 25%;
+    right: 25%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    border: solid 1px black;
+    margin: 8px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 25px;
+}
+
+a {
+    color: #ffffff;
+    padding: 50px 10px;
+}
+
+a:hover{
+    color:#00b7ff;
+}
+
+a:visited {
+    color: #d0ff00;
+}
+
+
+h1 {
+    background: #808080;
+    margin: 15px;
+    padding: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+/* --------------- main content --------------*/
+
+
+main {
+    display: flex;
+}
+
+.story-title, #article-section, nav, .side-content, #side-bar {
+    margin: 15px;
+}
+
+.story-title {
+    color: #c2c1c1;
+    text-align: left;
+}
+
+
+nav {
+    text-align: center;
+    background: #9b1c71;
+    height: 90px;
+}
+
+
+#article-section {
+    float: right;
+    background: #1e8000;
+    width: calc(60% - 12px);
+    color: #ffffff;
+}
+
+#side-bar {
+    float: left;
+    background: #30c9bc;
+    width: calc(40% - 12px);
+}
+
+.side-content {
+    border: solid 1px black;
+    background: #ffffff;
+    padding: 10px;
+    height: 250px;  /* height of actual text box */
+    overflow-y: auto;
+}
+
+.moose {
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+article {
+    border: solid 1px black;
+    border-radius: 10px;
+    background: #00b7ff;
+    margin: 15px;
+    overflow-y: auto;
+}
+
+article > p {
+    padding: 8px;
+    margin: 10px;
+}
+
+p > #pipeline {
+    float: left;
+    padding: 5px;
+}
+
+p > #aurora {
+    float: right;
+    padding: 5px;
+}
+
+/* --------------- footer --------------*/
+
+
+footer {
+    width: calc(100% - 50px);
+    text-align: center;
+    background: orange;
+    margin: 15px;
+    height: 8%;
+    padding: 10px;
+}
